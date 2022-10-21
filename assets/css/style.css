@@ -1,0 +1,32 @@
+
+body, .ratingval{
+    background-color:hotpink;
+}
+
+.header, .imgfig figcaption{
+    background-color: #373b69;
+}
+
+.imgfig{
+    margin-bottom: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.overview{
+    position: absolute;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 75%;
+    transition: all .3s ease-in-out;
+    overflow-y: auto;
+    transform: translateY(101%);
+    text-align: justify;
+}
+.imgfig:hover .overview{
+ 
+    transform: translateY(0%);
+    overflow-y: auto;
+}
